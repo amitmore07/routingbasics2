@@ -1,0 +1,27 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6" *ngFor="let u of users; let i = index">
+            <table class="table table-bordered" >
+                <thead>
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Name</th>
+                        <th>userName</th>
+                        <th>Email</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{i+1}}</td>
+                        <td>{{u.name}}</td>
+                        <td>{{u.username}}</td>
+                        <td>{{u.email}}</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

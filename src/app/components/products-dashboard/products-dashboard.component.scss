@@ -1,0 +1,33 @@
+mat-card{
+    overflow: hidden;
+    transition: transform 1s ease box-shadow 1s ease;
+}
+
+mat-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 14px 32px rgb(0,0,0,0.4)
+}
+.fixed-card{
+    height: 470px;
+}
+
+.img{
+    height:180px;
+    padding:16px;
+    display: flex;
+    object-fit: contain;
+    
+}
+
+
+mat-card-content{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    mat-card-header{
+        height:80px;
+        overflow: hidden;
+        text-overflow: ellipsis;     
+        
+}
